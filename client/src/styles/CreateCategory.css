@@ -1,0 +1,74 @@
+/* CreateCategory.css */
+
+.container-fluid.dashboard {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-wrapper {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table thead th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn-primary {
+  border-radius: 4px;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn-danger {
+  border-radius: 4px;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.modal-footer {
+  display: none;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
